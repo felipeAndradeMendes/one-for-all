@@ -55,10 +55,10 @@ CREATE TABLE SpotifyClone.users_following_artists(
 
 -- INSERÇÕES --
 INSERT INTO SpotifyClone.plan (plan_type, plan_value) VALUES
-	('gratuito', 0),
-	('universitario', 5.99),
-	('pessoal', 6.99),
-	('familiar', 7.99);
+	('gratuito', '0'),
+	('universitario', '5.99'),
+	('pessoal', '6.99'),
+	('familiar', '7.99');
 
 INSERT INTO SpotifyClone.artist (artist_name) VALUES
 	('Beyoncé'),
